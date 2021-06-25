@@ -18,5 +18,12 @@ pipeline {
 				}	
 		}
 		
-}
+	} post {
+		always {
+			echo 'I ran always'
+		}
+		success {
+			echo 'I ran when successfull'
+		}
+	}
 }
