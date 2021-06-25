@@ -24,7 +24,10 @@ pipeline {
 			echo 'I ran always'
 		}
 		success {
-			echo 'I ran when successfull'
+			echo 'I ran when successfull #2'
+		}
+		failure {
+			echo 'I ran when fails!'
 		}
 	}
 }
